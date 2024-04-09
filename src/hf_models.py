@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 handler = logging.StreamHandler()
-handler.setLevel(logging.DEBUG)     # DEBUG INFO WARNING ERROR CRITICAL
+handler.setLevel(logging.WARNING)     # DEBUG INFO WARNING ERROR CRITICAL
 formatter = logging.Formatter('HF-MODEL %(levelname)s : %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
