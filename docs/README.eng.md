@@ -85,6 +85,7 @@ git clone https://github.com/abus-aikorea/aria-coversong.git
 
 ### Run screen
 
+https://github.com/abus-aikorea/aria-coversong/assets/161691694/291ccd78-7812-4489-9df3-470b559de7ef
 
 
 
