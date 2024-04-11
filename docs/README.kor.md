@@ -8,6 +8,12 @@
 The best gradio web-ui for creating cover song that uses mdx-net and rvc. Easy one click installation. Fully portable.
 
 
+### 실행 화면
+
+https://github.com/abus-aikorea/aria-coversong/assets/161691694/206f2bc8-187a-4d44-99e9-6ab931582e4b
+
+
+
 ## 소개
 * Aria-CoverSong으로 **AI Cover**를 손쉽게 만들어 보세요. 
 * 아이유의 '큐피트', 김광석이 부르는 '보고싶다', '이등병의 편지' 트럼프 버전을 만들어 보세요. 
@@ -80,12 +86,6 @@ git clone https://github.com/abus-aikorea/aria-coversong.git
 #### Browser가 자동으로 실행되지 않는 경우
 - Windows-Commnad 창을 종료하고, start.bat 을 다시 실행하거나
 - Browser를 직접 실행하고, Windows-Command 창에 표시된 주소(예, **http://127.0.0.1:7892** )를 주소창에 입력합니다.
-
-
-
-### 실행 화면
-
-https://github.com/abus-aikorea/aria-coversong/assets/161691694/206f2bc8-187a-4d44-99e9-6ab931582e4b
 
 
 
