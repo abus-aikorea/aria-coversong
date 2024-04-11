@@ -8,6 +8,12 @@
 The best gradio web-ui for creating cover song that uses mdx-net and rvc. Easy one click installation. Fully portable.
 
 
+### Run screen
+
+https://github.com/abus-aikorea/aria-coversong/assets/161691694/291ccd78-7812-4489-9df3-470b559de7ef
+
+
+
 ## Introduction
 * Easily create **AI Cover** with Aria-CoverSong.
 * Make a Trump version of IU's 'Cupid', Kim Kwang-seok's 'I Miss You', and 'Private's Letter'.
@@ -82,10 +88,6 @@ git clone https://github.com/abus-aikorea/aria-coversong.git
 - Close the Windows-Commnad window and run start.bat again.
 - Run the browser directly and enter the address displayed in the Windows-Command window (e.g. **http://127.0.0.1:7892**) in the address bar.
 
-
-### Run screen
-
-https://github.com/abus-aikorea/aria-coversong/assets/161691694/291ccd78-7812-4489-9df3-470b559de7ef
 
 
 
