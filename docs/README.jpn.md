@@ -8,6 +8,10 @@
 The best gradio web-ui for creating cover song that uses mdx-net and rvc. Easy one click installation. Fully portable.
 
 
+### 実行画面
+
+https://github.com/abus-aikorea/aria-coversong/assets/161691694/721b08b3-b1d8-48a2-ab59-f05b697ef95f
+
 
 
 ## はじめに
@@ -82,10 +86,6 @@ git clone https://github.com/abus-aikorea/aria-coversong.git
 - Windows-Commnadウィンドウを終了し、start.batを再実行するか、
 - ブラウザを直接実行し、Windowsコマンドウィンドウに表示されているアドレス（例：**http://127.0.0.1:7892**）をアドレスウィンドウに入力します。
 
-
-### 実行画面
-
-https://github.com/abus-aikorea/aria-coversong/assets/161691694/721b08b3-b1d8-48a2-ab59-f05b697ef95f
 
 
 
