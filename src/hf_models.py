@@ -4,20 +4,8 @@ from huggingface_hub import hf_hub_download
 import zipfile
 import shutil
 
-
-##############################################################################################
-# logging
-##############################################################################################
-
-import logging
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-
-handler = logging.StreamHandler()
-handler.setLevel(logging.WARNING)     # DEBUG INFO WARNING ERROR CRITICAL
-formatter = logging.Formatter('HF-MODEL %(levelname)s : %(message)s')
-handler.setFormatter(formatter)
-logger.addHandler(handler)
+import structlog
+logger = structlog.get_logger()
 
 
 # Environment
@@ -149,11 +137,14 @@ def hf_download_all_models():
             continue
         hf_model.download()
         
-def hf_download_models(level : int):
+def hf_download_models(file_type: str, level : int):
     os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = 'True'
     for hf_model in HF_MODELS:
         if hf_model.level > level:
             continue
+        if hf_model.file_type != file_type:
+            continue
+        
         if hf_model.has_local_file():
             continue
         hf_model.download()    
