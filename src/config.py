@@ -15,9 +15,9 @@ class UserConfig:
         self.user_config_path = user_config_path
         self.default_user_config = {
             "gradio_language": "Korean",
-            "default_model_name": "medium",
-            "language": "Korean",
-            "highlight_words": False,
+            "whisper_model_name": "medium",
+            "whisper_language": "korean",
+            "word_timestamps": False,
             "denoise": False,
             "burn_subtitles": False,
             "video_quality": "best",
@@ -39,7 +39,15 @@ class UserConfig:
             "reverb_dry": 0.8,
             "reverb_damping": 0.7,
             "demixing_model": "htdemucs",
-            "demixing_audio_format": "flac"            
+            "demixing_audio_format": "flac",
+            "tts_language": "Korean",
+            "tts_voice": "Hyunsu,Male",
+            "tts_rate": 0,
+            "tts_volume": 0,
+            "tts_pitch": 0,
+            "translate_language": "korean",
+            "audio_source": "No Audio",
+            "denoise_level" : 0                        
         }
         self.user_config = self.load_user_config()
 
