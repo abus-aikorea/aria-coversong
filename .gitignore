@@ -171,3 +171,9 @@ app/model/rvc/base/rmvpe.pt
 /workspace
 *.pt
 *.th
+temp_requirements.txt
+requirements-cpu.txt
+requirements-gpu.txt
+requirements.txt
+requirements.txt
+temp_requirements.txt

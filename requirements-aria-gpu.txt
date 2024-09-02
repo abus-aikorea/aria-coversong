@@ -1,7 +1,5 @@
 structlog
-# for Whisper
-# faster-whisper==0.9.0
-# ctranslate2==3.24.0
+
 ffmpeg-python==0.2.0
 # for Demucs
 demucs==4.0.1
@@ -11,14 +9,15 @@ invisible-watermark
 fonts
 font-roboto
 # gradio
-gradio==3.50.2
+# gradio==3.50.2
+gradio==4.29.0
 yt-dlp==2023.11.16
 json5
 more_itertools
 pyyaml
 pandas==1.5.0
 Cython
-huggingface-hub==0.17.3
+huggingface-hub==0.23.4
 # one-click
 tqdm
 markdown
@@ -48,3 +47,11 @@ pysubs2
 jiwer
 evaluate
 uuid
+lingua-language-detector
+# PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+torchvision==0.18.1+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+torchaudio==2.3.1+cu121
