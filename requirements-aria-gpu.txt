@@ -10,7 +10,10 @@ fonts
 font-roboto
 # gradio
 # gradio==3.50.2
-gradio==4.29.0
+gradio==4.43.0
+numpy==1.26.4
+fastapi==0.112.4
+pydantic==2.9.1
 yt-dlp==2023.11.16
 json5
 more_itertools
@@ -38,7 +41,6 @@ scipy==1.11.1
 # sox==1.4.1
 torchcrepe==0.0.20
 tensorboardX
-numpy==1.23.5
 # tts
 edge-tts
 python-iso639
