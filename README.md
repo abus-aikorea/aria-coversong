@@ -1,6 +1,6 @@
 # Aria-CoverSong
 
-🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [日本語](docs/README.jpn.md)
+🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)
 
 [![GitHub License](https://img.shields.io/github/license/abus-aikorea/aria-coversong)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/aria-coversong)](https://github.com/abus-aikorea/aria-coversong/releases)
