@@ -29,19 +29,17 @@ markdown
 rich
 # ai covergen 
 deemix
+torchcrepe==0.0.22
 fairseq==0.12.2
 faiss-cpu==1.7.3
 lib==4.0.0
-librosa==0.9.1
-onnxruntime-gpu==1.17.1
+librosa==0.10.1
 praat-parselmouth>=0.4.2
 pedalboard==0.7.7
 pydub==0.25.1
 pyworld==0.3.4
 Requests==2.31.0
 scipy==1.11.1
-# sox==1.4.1
-torchcrepe==0.0.20
 tensorboardX
 # tts
 edge-tts
@@ -52,7 +50,8 @@ jiwer
 evaluate
 uuid
 lingua-language-detector
-# PyTorch 2.4.0
-torch==2.4.0
-torchvision==0.19.0
-torchaudio==2.4.0
+
+# PyTorch 2.5.1
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
