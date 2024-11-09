@@ -9,17 +9,17 @@ sys.path.append(parent_dir)
 
 
 from src.config import UserConfig
-from src.hf_models import hf_download_models
+from app.abus_hf import AbusHuggingFace
 from app.abus_genuine import genuine_init
 from app.abus_app_aria import create_ui
 from app.abus_path import path_workspace_folder, path_gradio_folder
 
 # ABUS - start Aria
 genuine_init()
-hf_download_models(file_type='rvc-model', level=0)
-hf_download_models(file_type='mdxnet-model', level=0)
-hf_download_models(file_type='rvc-voice', level=0)
-hf_download_models(file_type='demucs', level=0)
+AbusHuggingFace.hf_download_models(file_type='rvc-model', level=0)
+AbusHuggingFace.hf_download_models(file_type='mdxnet-model', level=0)
+AbusHuggingFace.hf_download_models(file_type='rvc-voice', level=0)
+AbusHuggingFace.hf_download_models(file_type='demucs', level=0)
 
 path_workspace_folder()
 path_gradio_folder()
